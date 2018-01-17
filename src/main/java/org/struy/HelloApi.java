@@ -7,4 +7,5 @@ package org.struy;
 
 public interface HelloApi {
     void sayHello();
+    void sayHello(String name);
 }

@@ -17,6 +17,6 @@ public class HelloTest {
         //2、从容器中获取Bean，注意此处完全“面向接口编程，而不是面向实现”
         HelloApi helloApi = context.getBean("hello", HelloApi.class);
         //3、执行业务逻辑
-        helloApi.sayHello();
+        helloApi.sayHello("struy");
     }
 }

@@ -11,4 +11,9 @@ public class HelloImpl implements HelloApi {
     public void sayHello() {
         System.out.println("Hello World!");
     }
+
+    @Override
+    public void sayHello(String name) {
+        System.out.println("Hello World!"+name);
+    }
 }

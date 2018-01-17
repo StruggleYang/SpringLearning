@@ -6,7 +6,6 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
 import org.struy.HelloApi;
-import org.struy.HelloImpl;
 
 import java.io.File;
 
